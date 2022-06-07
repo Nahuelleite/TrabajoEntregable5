@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: pink;
+    height: 200vh;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+.link {
+    color: rgb(255, 230, 230);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+    background: rgb(207, 130, 124);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+.nosotros {
+    display: grid;
+    padding-top: 80px;
+    margin: 22px;
+}
+.titulo{
+    justify-self: center; 
+    align-self: center; 
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+p {
+    justify-self: center; 
+    align-self: center; 
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.razas {
+    justify-self: center; 
+    align-self: center; 
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.subtitulo {
+    justify-self: left; 
+    align-self: center; 
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.siames{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://arc-anglerfish-arc2-prod-artear.s3.amazonaws.com/public/CVQYAVAXMD2YUQZ4KVMD33GBV4.jpg) ;
+    max-width: 1000px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.munchkin {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.zooplus.es/magazine/wp-content/uploads/2019/07/Munchkin.jpg) ;
+    max-width: 1000px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.bengala {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.bunko.pet/__export/1637794308942/sites/debate/img/2021/11/24/gato_bengali_x2x_crop1637794261225.jpeg_2053010266.jpeg);
+    max-width: 1000px;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
